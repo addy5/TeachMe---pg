@@ -1,0 +1,24 @@
+
+<h1 class='title'><span class='regularFont'>Tutor Request @</span>Teach<span class='logoM'>M</span>e!</h1>
+
+
+<div class="dashLeft" style="width:600px;min-height:400px;border:1px solid grey; margin:10px auto; display: inline-block; vertical-align: top;">
+
+  <p style="font-size: 21px; font-weight:bold; position:relative; margin: 10px 5%;"> Request to book <%= @request.post.title%> lesson from <%= @request.user.first_name%></p>
+<hr style="margin-left:3%; width: 93%">
+    <div class="messageBox" style="text-align: left;">
+
+    <p style="font-size: 17px; font-weight:normal; position:relative; margin: 15px 7%; margin-top:25px;"> <span style="font-weight:bold;">To:</span> <%= @request.post.user.first_name%> <%= @request.post.user.last_name%></p>
+
+    <p style="font-size: 17px; font-weight:normal; position:relative; margin: 15px 7%;"> <span style="font-weight:bold;">From:</span> <%= @request.user.first_name%> <%= @request.user.last_name%></p>
+
+    <p style="font-size: 17px; font-weight:normal; position:relative; margin: 15px 7%;"> <span style="font-weight:bold;">Email:</span> <%= @request.user.email %></p>
+
+    <p style="font-size: 17px; font-weight:normal; position:relative; margin: 15px 7%;"> <span style="font-weight:bold;">Subject:</span>  Your tutoring lesson: <%= @request.post.title.capitalize %>  in <%= @request.post.city %></p>
+
+    <p style="font-size: 17px; font-weight:normal; position:relative; margin: 15px 7%;"> <span style="font-weight:bold;">Message:</span> <p style="font-size: 17px; font-weight:normal; position:relative; margin: 15px 7%;"> Hi, <br>
+    <%= @request.message %> </p>
+    </p>
+    </div>
+
+</div>

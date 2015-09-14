@@ -1,0 +1,18 @@
+
+<div class="container message">
+
+<h1 class='title'><span class='regularFont'>Create Request @</span>Teach<span class='logoM'>M</span>e!</h1>
+
+<p style="margin-top:30px; font-weight:bold; font-size:20px;">Your inquery for <%=Post.find(params[:post_id]).title%> lessons</p>
+
+<%= form_for @request, url: post_requests_path do |f| %>
+  <div class='messageLine signup'>
+      <p class='messageDetail signup' style="margin-right:0; margin-top:30px;">Message:</p>
+      <%= f.text_area :message, :required => true, :class => 'messageBody', :style => "margin-top:30px; font-size:20px;" %>
+  </div>
+
+<%= f.submit "Send Request", :class => "signButton", :style => "width:150px; position:relative; top:160px;" %>
+
+<% end %>
+
+</div>
