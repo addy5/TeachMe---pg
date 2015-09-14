@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-
   root 'posts#index'
   get '/about' => 'users#about'
 	delete '/logout' => 'sessions#destroy'

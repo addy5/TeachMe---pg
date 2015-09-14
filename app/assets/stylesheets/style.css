@@ -29,7 +29,7 @@ ul{
 
 #coverPic{
   height: 260px;
-  background-image: url('mainPic.jpg');
+  background-image: image-url('mainPic.jpg');
   background-size: cover;
   text-align: center;
 }
