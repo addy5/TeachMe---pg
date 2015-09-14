@@ -53,6 +53,7 @@ ul{
 
 .container{
   max-width: 900px;
+  min-height: 700px;
   text-align: center;
   margin: 0 auto;
   vertical-align: top;
