@@ -39,10 +39,11 @@ ul{
 }
 
 #coverPic{
-  height: 260px;
+  height: 310px;
   background: asset_url('mainPic.jpg');
   background-size: cover;
   text-align: center;
+  background-attachment: fixed;
 }
 
 .logoM{
@@ -52,7 +53,7 @@ ul{
 .bfQuote{
   color: white;
   font-size: 25px;
-  padding-top: 95px;
+  padding-top: 105px;
   margin-left: -60px;
   /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
 }
