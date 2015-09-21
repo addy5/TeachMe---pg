@@ -1,0 +1,467 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* line 1, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+body {
+  text-align: center;
+  font-family: 'Arimo', sans-serif;
+}
+
+/* line 6, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.title {
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  margin: 10px auto;
+  font-family: 'Chewy', cursive;
+}
+
+/* line 14, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+ul.header {
+  width: 100%;
+  height: 50px;
+  background-color: inherit;
+  text-align: right;
+  height: 35px;
+  position: absolute;
+}
+
+/* line 23, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+li.header {
+  display: inline-block;
+  width: 95px;
+  font-size: 18px;
+  color: white;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  margin: 0 6px;
+}
+
+/* line 34, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+li.header:hover {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+/* line 40, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+#coverPic {
+  height: 360px;
+  background: url(/assets/mainPic-8acfadb538405288c9cb2450edf73331c0325c0bdb8f8de0664e0df7a0808654.jpg);
+  background-size: cover;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+/* line 48, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.logoM {
+  color: red;
+}
+
+/* line 52, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.bfQuote {
+  color: white;
+  font-size: 25px;
+  padding-top: 130px;
+  margin-left: -60px;
+  /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+}
+
+/* line 60, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+#bfSign {
+  font-size: 25px;
+  font-family: 'Mr Bedfort', cursive;
+}
+
+/* line 65, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.container {
+  max-width: 900px;
+  min-height: 700px;
+  text-align: center;
+  margin: 0 auto;
+  vertical-align: top;
+}
+
+/* line 73, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.footer {
+  width: 100%;
+  padding-left: 50px;
+  background-color: #486D84;
+  text-align: left;
+  color: #D6CECE;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+/* line 83, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+#footer1 {
+  height: 40px;
+  line-height: 40px;
+  font-size: 23px;
+  vertical-align: center;
+  color: white;
+  margin-bottom: -10px;
+}
+
+/* line 94, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* line 99, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.returnTop {
+  height: 40px;
+  line-height: 37px;
+  font-size: 15px;
+  margin-left: 67%;
+}
+
+/* line 106, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.foot {
+  text-align: left;
+  display: block;
+}
+
+/* line 111, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+hr {
+  width: 93%;
+  margin-left: -1%;
+}
+
+/* line 116, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.footerLine {
+  height: 35px;
+  /*width: 160px;*/
+  font-size: 15px;
+  display: inline-block;
+  line-height: 32px;
+  margin: 0 10px;
+}
+
+/* line 125, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.footerLine img {
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+}
+
+/* line 131, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+li.first {
+  height: 35px;
+  /*width: 160px;*/
+  font-size: 15px;
+  display: inline-block;
+  line-height: 32px;
+  margin: 0 10px;
+  width: 40px;
+  /*border-right: 2px solid grey;*/
+}
+
+/* line 142, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.indexListing {
+  border-radius: 5px;
+  /*border-top-right-radius: 10px;*/
+  background-color: rgba(179, 179, 179, 0.35);
+  width: 250px;
+  height: 210px;
+  margin: 15px 15px;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+/* line 155, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.indexImage {
+  width: 100%;
+  height: 75%;
+}
+
+/* line 160, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.indexListing h6 {
+  margin: 5px auto;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+/* line 166, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.indexListing p {
+  margin-top: 10px auto;
+  text-align: center;
+}
+
+/* line 171, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+h1.about {
+  margin-bottom: 25px;
+}
+
+/* line 174, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+h3.about {
+  font-weight: bold;
+  font-size: 23px;
+  text-align: left;
+  margin: 5px 0;
+  color: #486D84;
+}
+
+/* line 182, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+p.about {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+/* line 188, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.regularFont {
+  font-family: 'Arimo', sans-serif;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+/* line 194, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.containerRight {
+  display: inline-block;
+  width: 400px;
+}
+
+/* line 199, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.aboutMap {
+  height: 250px;
+}
+
+/* line 203, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+div.message {
+  min-height: 520px;
+  width: 500px;
+}
+
+/* line 208, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageLine {
+  height: 50px;
+  width: 500px;
+}
+
+/* line 213, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageDetail {
+  font-size: 22px;
+  height: 50px;
+  width: 80px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  text-align: left;
+}
+
+/* line 223, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageBody {
+  width: 300px;
+  height: 150px;
+  font-size: 15px;
+}
+
+/* line 229, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageField {
+  width: 300px;
+  height: 20px;
+}
+
+/* line 234, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.submitButton {
+  height: 50px;
+  position: relative;
+  left: 90px;
+  top: 130px;
+}
+
+/* line 241, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageDetail.signup {
+  font-size: 23px;
+  height: 50px;
+  width: 120px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  text-align: left;
+}
+
+/* line 251, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageLine.signup {
+  margin: 0 auto;
+}
+
+/* line 255, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageLine.newPost {
+  position: relative;
+  top: 120px;
+}
+
+/* line 260, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageLine.first {
+  margin-top: 25px;
+}
+
+/* line 264, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.container.message.contact {
+  border: 1px solid grey;
+  margin: 20px 5px;
+  background-color: #F1F1F1;
+  border-radius: 6px;
+  display: inline-block;
+  text-align: center;
+  width: 430px;
+}
+
+/* line 274, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.container .messageLine input {
+  font-size: 18px;
+}
+
+/* line 278, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageLine.contact {
+  width: 390px;
+  text-align: center;
+}
+
+/* line 283, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageDetail.contact {
+  margin-left: 28px;
+  text-align: right;
+}
+
+/* line 288, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageBody.contact {
+  width: 250px;
+}
+
+/* line 292, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.messageField.contact {
+  width: 250px;
+}
+
+/* line 296, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.contactHeader {
+  margin: 10px auto;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+/* line 302, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.contactInfo {
+  margin: 24px auto;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/* line 308, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.signButton {
+  width: 80px;
+  background-color: orange;
+  font-size: 20px;
+  color: black;
+  border-radius: 5px;
+  left: 80px;
+  position: relative;
+}
+
+/* line 318, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.signButton.new {
+  width: 150px;
+  position: relative;
+}
+
+/* line 323, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.notice {
+  height: 30px;
+  background-color: red;
+  color: white;
+  opacity: 0.75;
+  display: none;
+  line-height: 30px;
+}
+
+/* line 332, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.notice1 {
+  height: 30px;
+  background-color: red;
+  color: white;
+  opacity: 0.75;
+  line-height: 30px;
+}
+
+/* line 340, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.loggedIn, .newUser {
+  height: 30px;
+  background-color: green;
+  color: white;
+  opacity: 0.75;
+  display: none;
+  line-height: 30px;
+}
+
+/* line 349, /Users/Addison/GA/w12/TeachMe/app/assets/stylesheets/style.css.scss */
+.logLink {
+  font-weight: bold;
+  color: blue;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
